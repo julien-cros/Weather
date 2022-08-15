@@ -47,11 +47,7 @@ const Home: NextPage<APIResponse> = ({ data }) => {
 
 
 	return (
-			<Head>
-				<link rel="preconnect" href="https://fonts.googleapis.com">
-					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-						<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
-						</Head>
+			
 						<div className='w-full '>
 							< Search />
 							{/* {data && <p>{JSON.stringify(data.name)}</p>} */}
